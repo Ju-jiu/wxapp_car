@@ -1,0 +1,33 @@
+.here {
+
+}
+
+.hero image, .hero video {
+  height: 38.2vh;
+}
+
+.hero .content {
+  padding-top: 10%;
+}
+
+.hero .content.centered {
+  text-align: center;
+}
+
+.hero .header {
+  font-size: 54rpx;
+  font-weight: bold;
+  margin: 0 12% 8px;
+}
+
+.hero .sub_header {
+  font-size: 32rpx;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 8px;
+}
+
+.hero .description {
+  padding: 0 12%;
+  margin-bottom: 32px;
+}
