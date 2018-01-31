@@ -1,14 +1,7 @@
-<image
-  src="https://resources.ninghao.net/landrover/discover-1.jpg"
-  mode="aspectFill"
- />
+<view class="section">
+  <view style="background: #6435c9; height: 38.2vh"></view>
+</view>
 
- <image
-   src="https://resources.ninghao.net/landrover/velar-1.jpg"
-   mode="aspectFill"
-  />
-
-<view>
-  关关雎鸠，在河之洲；窈窕淑女，君子好逑。
-  有匪君子，如切如磋，如琢如磨
+<view class="section">
+  <view style="background: #6435c9; height: 38.2vh"></view>
 </view>
