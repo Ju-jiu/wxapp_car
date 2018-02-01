@@ -13,5 +13,17 @@
       </view>
     </swiper-item>
   </block>
-</swiper>
--->
+</swiper>-->
+<view class="cards">
+  <view class="card" wx:for="{{entities}}" wx:key="id">
+    <image src="{{item.image}}" mode="aspectFill" />
+    <view class="content">
+      <view class="header">
+        {{item.header}}
+        <view class="sub_header">{{item.sub_header}}</view>
+      </view>
+      <view class="description">{{item.description}}</view>
+      <view class="meta">{{item.meta.price}}</view>
+    </view>
+  </view>
+</view>
