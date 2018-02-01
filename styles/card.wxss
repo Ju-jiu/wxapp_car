@@ -12,6 +12,21 @@
       box-shadow: 0 32px 48px rgba(0, 0, 0, 0.5)
     }
 
+    .card image {
+      position: relative;
+    }
+
+    .card .label {
+      position: absolute;
+      bottom: 8px;
+      right: 8px;
+      font-size: 24rpx;
+      background: rgba(0, 0, 0, 0.85);
+      color: rgba(255, 255, 255, 0.9);
+      padding: 4rpx 8rpx;
+       border-radius: 4px;
+    }
+
     .card image, .card vedio {
       height: 36vh;
     }
