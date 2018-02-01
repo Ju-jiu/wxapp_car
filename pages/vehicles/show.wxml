@@ -30,3 +30,39 @@
     <button class="button primary">预约试驾</button>
   </view>
 </view>
+<swiper class="section story white" indicator-dots="{{true}}">
+  <block wx:for="{{entity.meta.exterior_design}}" >
+    <swiper-item>
+      <view class="content">
+        <view class="sub_header">外观</view>
+        <view class="header">{{item.header}}</view>
+        <view class="description">{{item.description}}</view>
+      </view>
+      <image
+        bindtap="preview"
+        data-slides="exterior_design"
+        data-index="{{index}}"
+        src="{{item.image}}"
+        mode="aspectFill"
+       />
+    </swiper-item>
+  </block>
+</swiper>
+<swiper class="section story" indicator-dots="{{true}}">
+  <block wx:for="{{entity.meta.interior_design}}" >
+    <swiper-item>
+      <view class="content">
+        <view class="sub_header">内饰</view>
+        <view class="header">{{item.header}}</view>
+        <view class="description">{{item.description}}</view>
+      </view>
+      <image
+        bindtap="preview"
+        data-slides="interior_design"
+        data-index="{{index}}"
+        src="{{item.image}}"
+        mode="aspectFill"
+        />
+    </swiper-item>
+  </block>
+</swiper>
